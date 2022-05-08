@@ -36,7 +36,7 @@ router.get("/div/:a/:b", async function (req, res) {
     const result = a / b;
 
     if (b == 0){
-        return res.send({ result: "Error: div by 0" });
+        return res.send({ result: "Error: div by 0 is not possible" });
     } else{
         return res.send({ result });
     }    
