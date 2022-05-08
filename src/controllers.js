@@ -39,7 +39,7 @@ router.get("/mul/:a/:b", async function (req, res) {
         },
         result,
     });
-    return res.send({ result });
+    return res.send({"Resultado": result });
 });
 
 router.get("/div/:a/:b", async function (req, res) {
