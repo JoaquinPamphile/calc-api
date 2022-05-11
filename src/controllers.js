@@ -36,7 +36,7 @@ router.get("/res/:a/:b", async function (req, res) {
         result,
     });
 
-    return res.send({ result });
+    return res.send({ "El resultado de la resta es:" : result });
 });
 
 router.get("/mul/:a/:b", async function (req, res) {
