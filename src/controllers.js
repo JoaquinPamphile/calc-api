@@ -94,7 +94,7 @@ router.get("/pow/:a/:b", async function (req, res) {
         },
         result,
     });
-    return res.send({ result });
+    return res.send({ "El resultado es:": result });
 });
 
 router.get("/history", async function (req, res) {
